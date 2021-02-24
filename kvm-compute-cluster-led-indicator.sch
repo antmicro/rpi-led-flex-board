@@ -778,4 +778,26 @@ Wire Wire Line
 Connection ~ 4750 2525
 Wire Wire Line
 	4750 2525 4750 2300
+$Comp
+L antmicroMechanicalParts:antmicro_logo N1
+U 1 1 603AD97C
+P 5900 7350
+F 0 "N1" H 6114 7443 50  0000 L CNN
+F 1 "antmicro_logo" H 6114 7352 50  0000 L CNN
+F 2 "antmicro-footprints:antmicro-logo_scaled_15mm_silk" H 5800 7600 50  0001 C CNN
+F 3 "" H 5900 7700 50  0001 C CNN
+	1    5900 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:oshw_logo N2
+U 1 1 603B0192
+P 5050 7300
+F 0 "N2" H 5244 7303 50  0000 L CNN
+F 1 "oshw_logo" H 5244 7212 50  0000 L CNN
+F 2 "antmicro-footprints:OSHW-Logo_5.7x6mm_SilkScreen" H 5070 7060 50  0001 C CNN
+F 3 "" H 5050 7300 50  0001 C CNN
+	1    5050 7300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
