@@ -189,7 +189,7 @@
     (add_net "Net-(J1-Pad9)")
   )
 
-  (module antmicro-footprints:QFN-28_6x6mm_P0.65mm (layer F.Cu) (tedit 600858FC) (tstamp 61530A05)
+  (module kvm-compute-cluster-led-indicator-footprints:QFN-28_6x6mm_P0.65mm (layer F.Cu) (tedit 600858FC) (tstamp 61530A05)
     (at 106.661763 125.63585 90)
     (descr "QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf (Page 289)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py")
     (tags "QFN DFN_QFN")
@@ -287,14 +287,14 @@
     (pad "" smd roundrect (at -1.42 -1.42 90) (size 1.14 1.14) (layers F.Paste) (roundrect_rratio 0.2192973684210526))
     (pad 29 smd roundrect (at 0 0 90) (size 4.25 4.25) (layers F.Cu F.Mask) (roundrect_rratio 0.058824)
       (net 22 GND))
-    (model ${ANT3DMDL}/HVQFN28.STEP
+    (model ${KIPRJMOD}/lib/3d-models/HVQFN28.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F60C)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F60C)
     (at 101.018526 117.8817 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -321,14 +321,14 @@
       (net 22 GND))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 23 /GPIO))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:antmicro-logo_scaled_15mm_silk (layer F.Cu) (tedit 6036773F) (tstamp 61535D17)
+  (module kvm-compute-cluster-led-indicator-footprints:antmicro-logo_scaled_15mm_silk (layer F.Cu) (tedit 6036773F) (tstamp 61535D17)
     (at 141.25 108.52)
     (path /603AD97C)
     (attr virtual)
@@ -627,7 +627,7 @@
       (xy -5.919154 -1.04255) (xy -5.860517 -1.051393) (xy -5.799214 -1.040212)) (layer F.SilkS) (width 0.001395))
   )
 
-  (module antmicro-footprints:OSHW-Logo_5.7x6mm_SilkScreen (layer F.Cu) (tedit 0) (tstamp 61535CE0)
+  (module kvm-compute-cluster-led-indicator-footprints:OSHW-Logo_5.7x6mm_SilkScreen (layer F.Cu) (tedit 0) (tstamp 61535CE0)
     (at 126.509263 109.27585)
     (descr "Open Source Hardware Logo")
     (tags "Logo OSHW")
@@ -980,7 +980,7 @@
       (xy -1.971615 1.454739) (xy -1.908759 1.469184)) (layer F.SilkS) (width 0.01))
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F5E2)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F5E2)
     (at 105.958526 119.0467 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1007,14 +1007,14 @@
       (net 41 "Net-(D5-Pad3)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 19 /LED_5_B))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F5B8)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F5B8)
     (at 105.958526 117.518129 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1041,14 +1041,14 @@
       (net 42 "Net-(D5-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 20 /LED_5_G))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F58E)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F58E)
     (at 105.958526 115.989558 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1075,14 +1075,14 @@
       (net 5 "Net-(D5-Pad1)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 21 /LED_5_R))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F564)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F564)
     (at 105.958526 114.460987 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1109,14 +1109,14 @@
       (net 39 "Net-(D4-Pad3)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 16 /LED_4_B))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F53A)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F53A)
     (at 105.958526 112.932416 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1143,14 +1143,14 @@
       (net 40 "Net-(D4-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 17 /LED_4_G))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F510)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F510)
     (at 105.958526 111.403845 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1177,14 +1177,14 @@
       (net 4 "Net-(D4-Pad1)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 18 /LED_4_R))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F4E6)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F4E6)
     (at 105.958526 109.875274 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1211,14 +1211,14 @@
       (net 37 "Net-(D3-Pad3)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 13 /LED_3_B))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F4BC)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F4BC)
     (at 105.958526 108.346703 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1245,14 +1245,14 @@
       (net 38 "Net-(D3-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 14 /LED_3_G))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F492)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F492)
     (at 105.958526 106.818132 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1279,14 +1279,14 @@
       (net 3 "Net-(D3-Pad1)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 15 /LED_3_R))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F468)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F468)
     (at 105.958526 105.289561 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1313,14 +1313,14 @@
       (net 35 "Net-(D2-Pad3)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 10 /LED_2_B))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F43E)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F43E)
     (at 105.958526 103.76099 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1347,14 +1347,14 @@
       (net 36 "Net-(D2-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 11 /LED_2_G))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F414)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F414)
     (at 105.958526 102.232419 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1381,14 +1381,14 @@
       (net 2 "Net-(D2-Pad1)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 12 /LED_2_R))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F3EA)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F3EA)
     (at 105.958526 100.703848 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1415,14 +1415,14 @@
       (net 33 "Net-(D1-Pad3)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 7 /LED_1_B))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F3AB)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F3AB)
     (at 105.958526 99.175277 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1449,14 +1449,14 @@
       (net 34 "Net-(D1-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 8 /LED_1_G))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F381)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F381)
     (at 105.958526 97.6467 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1483,14 +1483,14 @@
       (net 1 "Net-(D1-Pad1)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 9 /LED_1_R))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6152F357)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6152F357)
     (at 102.159263 126.67585 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1517,14 +1517,14 @@
       (net 6 +3V3))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 22 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 601C1ADE)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 601C1ADE)
     (at 162.425 101.2)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1551,14 +1551,14 @@
       (net 25 /SDA))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 6 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 601C0FB6)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 601C0FB6)
     (at 162.425 102.45)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1585,14 +1585,14 @@
       (net 26 /SCL))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 6 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:TE_1-1734248-5_FLEX (layer F.Cu) (tedit 5EB94318) (tstamp 60093603)
+  (module kvm-compute-cluster-led-indicator-footprints:TE_1-1734248-5_FLEX (layer F.Cu) (tedit 5EB94318) (tstamp 60093603)
     (at 166.15 109.35 90)
     (path /603E9F91)
     (attr smd)
@@ -1638,7 +1638,7 @@
       (net 22 GND))
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F32D)
+  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F32D)
     (at 101.018526 116.9117 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1665,14 +1665,14 @@
       (net 23 /GPIO))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 6 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F23F)
+  (module kvm-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F23F)
     (at 103.673526 118.3217)
     (descr http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf)
     (path /6012CB85)
@@ -1711,14 +1711,14 @@
       (net 42 "Net-(D5-Pad2)"))
     (pad 1 smd rect (at -0.425 -0.725) (size 0.65 0.85) (layers F.Cu F.Paste F.Mask)
       (net 5 "Net-(D5-Pad1)"))
-    (model ${ANT3DMDL}/LED-RGB-dual0603.step
+    (model ${KIPRJMOD}/lib/3d-models/LED-RGB-dual0603.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F1F4)
+  (module kvm-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F1F4)
     (at 103.673526 113.6467)
     (descr http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf)
     (path /6012CB8D)
@@ -1757,14 +1757,14 @@
       (net 40 "Net-(D4-Pad2)"))
     (pad 1 smd rect (at -0.425 -0.725) (size 0.65 0.85) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(D4-Pad1)"))
-    (model ${ANT3DMDL}/LED-RGB-dual0603.step
+    (model ${KIPRJMOD}/lib/3d-models/LED-RGB-dual0603.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F1A9)
+  (module kvm-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F1A9)
     (at 103.673526 104.2967)
     (descr http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf)
     (path /601122FA)
@@ -1803,14 +1803,14 @@
       (net 36 "Net-(D2-Pad2)"))
     (pad 1 smd rect (at -0.425 -0.725) (size 0.65 0.85) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(D2-Pad1)"))
-    (model ${ANT3DMDL}/LED-RGB-dual0603.step
+    (model ${KIPRJMOD}/lib/3d-models/LED-RGB-dual0603.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F15E)
+  (module kvm-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F15E)
     (at 103.673526 108.9717)
     (descr http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf)
     (path /601141D9)
@@ -1849,14 +1849,14 @@
       (net 38 "Net-(D3-Pad2)"))
     (pad 1 smd rect (at -0.425 -0.725) (size 0.65 0.85) (layers F.Cu F.Paste F.Mask)
       (net 3 "Net-(D3-Pad1)"))
-    (model ${ANT3DMDL}/LED-RGB-dual0603.step
+    (model ${KIPRJMOD}/lib/3d-models/LED-RGB-dual0603.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F113)
+  (module kvm-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F113)
     (at 103.673526 99.6217)
     (descr http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf)
     (path /60114A83)
@@ -1895,7 +1895,7 @@
       (net 34 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at -0.425 -0.725) (size 0.65 0.85) (layers F.Cu F.Paste F.Mask)
       (net 1 "Net-(D1-Pad1)"))
-    (model ${ANT3DMDL}/LED-RGB-dual0603.step
+    (model ${KIPRJMOD}/lib/3d-models/LED-RGB-dual0603.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
