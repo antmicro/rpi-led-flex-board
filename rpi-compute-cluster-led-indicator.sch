@@ -85,7 +85,7 @@ Wire Wire Line
 Wire Wire Line
 	7575 6700 7575 6550
 $Comp
-L power:GND #PWR0101
+L rpi-compute-cluster-led-indicator:GND #PWR0101
 U 1 1 601706A8
 P 7525 6800
 F 0 "#PWR0101" H 7525 6550 50  0001 C CNN
@@ -243,7 +243,7 @@ Connection ~ 11850 4225
 Wire Wire Line
 	11850 4225 11850 4800
 $Comp
-L power:+3.3V #PWR0102
+L rpi-compute-cluster-led-indicator:+3.3V #PWR0102
 U 1 1 602AA6C5
 P 11850 3825
 F 0 "#PWR0102" H 11850 3675 50  0001 C CNN
@@ -254,7 +254,7 @@ F 3 "" H 11850 3825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0104
+L rpi-compute-cluster-led-indicator:GND #PWR0104
 U 1 1 602B26FB
 P 8475 6350
 F 0 "#PWR0104" H 8475 6100 50  0001 C CNN
@@ -311,7 +311,7 @@ Connection ~ 6700 6150
 Wire Wire Line
 	6700 6150 6700 6375
 $Comp
-L power:GND #PWR0107
+L rpi-compute-cluster-led-indicator:GND #PWR0107
 U 1 1 6020FC2E
 P 6700 6375
 F 0 "#PWR0107" H 6700 6125 50  0001 C CNN
@@ -322,7 +322,7 @@ F 3 "" H 6700 6375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0108
+L rpi-compute-cluster-led-indicator:+3.3V #PWR0108
 U 1 1 6021100F
 P 6550 5400
 F 0 "#PWR0108" H 6550 5250 50  0001 C CNN
@@ -341,7 +341,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 4150 6350 4000
 $Comp
-L power:+3.3V #PWR0103
+L rpi-compute-cluster-led-indicator:+3.3V #PWR0103
 U 1 1 6027AFA4
 P 7575 3850
 F 0 "#PWR0103" H 7575 3700 50  0001 C CNN
@@ -588,7 +588,7 @@ RGB LED indicators
 Text Notes 6875 3000 0    118  ~ 24
 GPIO expander
 $Comp
-L power:GND #PWR0110
+L rpi-compute-cluster-led-indicator:GND #PWR0110
 U 1 1 6028F47D
 P 8225 4400
 F 0 "#PWR0110" H 8225 4150 50  0001 C CNN
@@ -677,7 +677,7 @@ Connection ~ 6350 5050
 Wire Wire Line
 	6150 5425 6150 5575
 $Comp
-L power:GND #PWR0109
+L rpi-compute-cluster-led-indicator:GND #PWR0109
 U 1 1 60412CFF
 P 6150 5575
 F 0 "#PWR0109" H 6150 5325 50  0001 C CNN
@@ -741,7 +741,7 @@ F 6 "10k" V 6500 4325 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0105
+L rpi-compute-cluster-led-indicator:+3.3V #PWR0105
 U 1 1 602D0676
 P 3550 3850
 F 0 "#PWR0105" H 3550 3700 50  0001 C CNN
@@ -788,7 +788,7 @@ GPIO
 Text Label 3925 5050 2    50   ~ 0
 CLK
 $Comp
-L power:GND #PWR0106
+L rpi-compute-cluster-led-indicator:GND #PWR0106
 U 1 1 602D9FE8
 P 3250 5475
 F 0 "#PWR0106" H 3250 5225 50  0001 C CNN
@@ -804,7 +804,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 4450 6350 5050
 $Comp
-L power:+3.3V #PWR0111
+L rpi-compute-cluster-led-indicator:+3.3V #PWR0111
 U 1 1 62155603
 P 6150 3850
 F 0 "#PWR0111" H 6150 3700 50  0001 C CNN

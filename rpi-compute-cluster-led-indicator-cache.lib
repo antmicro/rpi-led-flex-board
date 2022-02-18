@@ -1,54 +1,7 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# power_+3.3V
-#
-DEF power_+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# rpi-compute-cluster-led-indicator_C_100n_0402
-#
-DEF rpi-compute-cluster-led-indicator_C_100n_0402 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "rpi-compute-cluster-led-indicator_C_100n_0402" 0 -150 60 H I C CNN
-F2 "rpi-compute-cluster-led-indicator-footprints:0402-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "Murata" 200 400 60 H I L CNN "Manufacturer"
-F5 "GRM155R61H104KE14D" 200 300 60 H I L CNN "MPN"
-F6 "100n" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# rpi-compute-cluster-led-indicator_LTST-C19HE1WT
+# LTST-C19HE1WT
 #
 DEF rpi-compute-cluster-led-indicator_LTST-C19HE1WT D 0 0 Y Y 1 F N
 F0 "D" -300 300 50 H V C CNN
@@ -94,7 +47,88 @@ X ~ 4 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# rpi-compute-cluster-led-indicator_PCA9685BS,118
+# GND
+#
+DEF rpi-compute-cluster-led-indicator_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "rpi-compute-cluster-led-indicator_GND" 0 -150 50 H V C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +3V3
+#
+DEF rpi-compute-cluster-led-indicator_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "rpi-compute-cluster-led-indicator_+3V3" 0 140 50 H V C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# R_100R_0402
+#
+DEF rpi-compute-cluster-led-indicator_R_100R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "rpi-compute-cluster-led-indicator_R_100R_0402" 0 -150 60 H I C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
+F5 "CR0402-FX-1000GLF" 200 300 60 H I L CNN "MPN"
+F6 "100R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_49R9_0402
+#
+DEF rpi-compute-cluster-led-indicator_R_49R9_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "rpi-compute-cluster-led-indicator_R_49R9_0402" 0 -150 60 H I C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040249R9FKED" 200 300 60 H I L CNN "MPN"
+F6 "49R9" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_100n_0402
+#
+DEF rpi-compute-cluster-led-indicator_C_100n_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "rpi-compute-cluster-led-indicator_C_100n_0402" 0 -150 60 H I C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Murata" 200 400 60 H I L CNN "Manufacturer"
+F5 "GRM155R61H104KE14D" 200 300 60 H I L CNN "MPN"
+F6 "100n" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PCA9685BS,118
 #
 DEF rpi-compute-cluster-led-indicator_PCA9685BS,118 U 0 20 Y Y 1 F N
 F0 "U" -500 875 50 H V L CNN
@@ -102,7 +136,7 @@ F1 "rpi-compute-cluster-led-indicator_PCA9685BS,118" 50 875 50 H V L CNN
 F2 "rpi-compute-cluster-led-indicator-footprints:QFN-28_6x6mm_P0.65mm" 25 -975 50 H I L CNN
 F3 "" -400 700 50 H I C CNN
 $FPLIST
- QFN*1EP*6x6mm*P0.65mm*
+QFN*1EP*6x6mm*P0.65mm*
 $ENDFPLIST
 DRAW
 S -500 800 500 -900 0 1 10 f
@@ -138,7 +172,31 @@ X LED6 9 700 100 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# rpi-compute-cluster-led-indicator_R_0R_0402
+# antmicro_logo
+#
+DEF rpi-compute-cluster-led-indicator_antmicro_logo N 0 40 Y Y 1 F N
+F0 "N" 0 350 50 H V C CNN
+F1 "rpi-compute-cluster-led-indicator_antmicro_logo" 0 -200 50 H V C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:antmicro-logo" -100 250 50 H I C CNN
+F3 "" 0 350 50 H I C CNN
+DRAW
+T 0 50 50 79 0 0 0 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# oshw_logo
+#
+DEF rpi-compute-cluster-led-indicator_oshw_logo N 0 40 Y Y 1 F N
+F0 "N" 20 40 50 H V C CNN
+F1 "rpi-compute-cluster-led-indicator_oshw_logo" 30 -150 50 H V C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:oshw-logo" 20 -240 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 30 -40 79 0 1 1 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# R_0R_0402
 #
 DEF rpi-compute-cluster-led-indicator_R_0R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
@@ -155,58 +213,7 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# rpi-compute-cluster-led-indicator_R_100R_0402
-#
-DEF rpi-compute-cluster-led-indicator_R_100R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "rpi-compute-cluster-led-indicator_R_100R_0402" 0 -150 60 H I C CNN
-F2 "rpi-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
-F5 "CR0402-FX-1000GLF" 200 300 60 H I L CNN "MPN"
-F6 "100R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# rpi-compute-cluster-led-indicator_R_10k_0402
-#
-DEF rpi-compute-cluster-led-indicator_R_10k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "rpi-compute-cluster-led-indicator_R_10k_0402" 0 -150 60 H I C CNN
-F2 "rpi-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
-F6 "10k" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# rpi-compute-cluster-led-indicator_R_49R9_0402
-#
-DEF rpi-compute-cluster-led-indicator_R_49R9_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "rpi-compute-cluster-led-indicator_R_49R9_0402" 0 -150 60 H I C CNN
-F2 "rpi-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW040249R9FKED" 200 300 60 H I L CNN "MPN"
-F6 "49R9" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# rpi-compute-cluster-led-indicator_R_4k7_0402
+# R_4k7_0402
 #
 DEF rpi-compute-cluster-led-indicator_R_4k7_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
@@ -223,7 +230,24 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# rpi-compute-cluster-led-indicator_TE_1-1734248-5_FLEX
+# R_10k_0402
+#
+DEF rpi-compute-cluster-led-indicator_R_10k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "rpi-compute-cluster-led-indicator_R_10k_0402" 0 -150 60 H I C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
+F6 "10k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TE_1-1734248-5_FLEX
 #
 DEF rpi-compute-cluster-led-indicator_TE_1-1734248-5_FLEX J 0 40 Y N 1 F N
 F0 "J" 0 1100 50 H V C CNN
@@ -264,30 +288,6 @@ X Pin_6 6 -200 500 150 R 50 50 1 1 P
 X Pin_7 7 -200 400 150 R 50 50 1 1 P
 X Pin_8 8 -200 300 150 R 50 50 1 1 P
 X Pin_9 9 -200 200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# rpi-compute-cluster-led-indicator_antmicro_logo
-#
-DEF rpi-compute-cluster-led-indicator_antmicro_logo N 0 40 Y Y 1 F N
-F0 "N" 0 350 50 H V C CNN
-F1 "rpi-compute-cluster-led-indicator_antmicro_logo" 0 -200 50 H V C CNN
-F2 "rpi-compute-cluster-led-indicator-footprints:antmicro-logo" -100 250 50 H I C CNN
-F3 "" 0 350 50 H I C CNN
-DRAW
-T 0 50 50 79 0 0 0 Logo Normal 0 C C
-ENDDRAW
-ENDDEF
-#
-# rpi-compute-cluster-led-indicator_oshw_logo
-#
-DEF rpi-compute-cluster-led-indicator_oshw_logo N 0 40 Y Y 1 F N
-F0 "N" 20 40 50 H V C CNN
-F1 "rpi-compute-cluster-led-indicator_oshw_logo" 30 -150 50 H V C CNN
-F2 "rpi-compute-cluster-led-indicator-footprints:oshw-logo" 20 -240 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 0 30 -40 79 0 1 1 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #
