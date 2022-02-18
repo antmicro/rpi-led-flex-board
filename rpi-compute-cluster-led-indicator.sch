@@ -271,10 +271,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 5050 6875 5050
 Wire Wire Line
-	6875 4950 6550 4950
-Wire Wire Line
-	6550 4950 6550 4650
-Wire Wire Line
 	11175 4200 11150 4200
 Wire Wire Line
 	10850 4200 10475 4200
@@ -747,90 +743,115 @@ $EndComp
 $Comp
 L power:+3.3V #PWR0105
 U 1 1 602D0676
-P 5575 3450
-F 0 "#PWR0105" H 5575 3300 50  0001 C CNN
-F 1 "+3.3V" H 5590 3623 50  0000 C CNN
-F 2 "" H 5575 3450 50  0001 C CNN
-F 3 "" H 5575 3450 50  0001 C CNN
-	1    5575 3450
+P 3575 4075
+F 0 "#PWR0105" H 3575 3925 50  0001 C CNN
+F 1 "+3.3V" H 3590 4248 50  0000 C CNN
+F 2 "" H 3575 4075 50  0001 C CNN
+F 3 "" H 3575 4075 50  0001 C CNN
+	1    3575 4075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5275 4150 5275 4450
-Connection ~ 5275 4150
+	3275 4775 3275 5075
+Connection ~ 3275 4775
 Wire Wire Line
-	5175 4150 5275 4150
+	3175 4775 3275 4775
 Wire Wire Line
-	5275 3550 5275 3850
+	3275 4175 3275 4475
 Wire Wire Line
-	5275 3850 5275 4150
-Connection ~ 5275 3850
+	3275 4475 3275 4775
+Connection ~ 3275 4475
 Wire Wire Line
-	5175 3850 5275 3850
+	3175 4475 3275 4475
 Wire Wire Line
-	5175 3550 5275 3550
-$Comp
-L rpi-compute-cluster-led-indicator:TE_1-1734248-5_FLEX J1
-U 1 1 603E9F91
-P 4975 4550
-F 0 "J1" H 5000 5650 50  0000 C CNN
-F 1 "TE_1-1734248-5_FLEX" H 5200 4050 50  0000 C CNN
-F 2 "rpi-compute-cluster-led-indicator-footprints:TE_1-1734248-5_FLEX" H 4850 3850 50  0001 C CNN
-F 3 "" H 5050 3750 50  0001 C CNN
-F 4 "1-1734248-5" H 5250 4750 60  0001 L CNN "MPN"
-F 5 "TE Connectivity" H 5250 4625 60  0001 L CNN "Manufacturer"
-	1    4975 4550
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5575 3450 5575 3700
-Wire Wire Line
-	5575 3700 5575 4950
-Connection ~ 5575 3700
-Connection ~ 5950 3700
-Wire Wire Line
-	5950 3700 5575 3700
-Text Notes 4050 3075 0    79   ~ 0
+	3175 4175 3275 4175
+Text Notes 2050 3700 0    79   ~ 0
 Raspberry PI FFC camera connector
-Connection ~ 6150 4850
 Wire Wire Line
-	6150 4850 5175 4850
-Text Label 5325 4850 0    50   ~ 0
+	3950 5475 3175 5475
+Text Label 5475 4850 0    50   ~ 0
 SDA
-Text Label 5325 4750 0    50   ~ 0
+Text Label 3950 5375 2    50   ~ 0
 SCL
 Wire Wire Line
-	5175 4450 5275 4450
+	3175 5075 3275 5075
 Wire Wire Line
-	6350 4550 6350 4450
+	3175 5175 3950 5175
 Wire Wire Line
-	6350 4550 6350 5050
-Connection ~ 6350 4550
+	3950 5275 3175 5275
 Wire Wire Line
-	5175 4550 6350 4550
+	3175 5375 3950 5375
 Wire Wire Line
-	6550 4650 5175 4650
-Connection ~ 5950 4750
-Wire Wire Line
-	5175 4750 5950 4750
-Wire Wire Line
-	5575 4950 5175 4950
-Text Label 5325 4550 0    50   ~ 0
+	3575 5575 3175 5575
+Text Label 3950 5175 2    50   ~ 0
 GPIO
-Text Label 5325 4650 0    50   ~ 0
+Text Label 3950 5275 2    50   ~ 0
 CLK
 $Comp
 L power:GND #PWR0106
 U 1 1 602D9FE8
-P 5275 5075
-F 0 "#PWR0106" H 5275 4825 50  0001 C CNN
-F 1 "GND" H 5280 4902 50  0000 C CNN
-F 2 "" H 5275 5075 50  0001 C CNN
-F 3 "" H 5275 5075 50  0001 C CNN
-	1    5275 5075
+P 3275 5700
+F 0 "#PWR0106" H 3275 5450 50  0001 C CNN
+F 1 "GND" H 3280 5527 50  0000 C CNN
+F 2 "" H 3275 5700 50  0001 C CNN
+F 3 "" H 3275 5700 50  0001 C CNN
+	1    3275 5700
 	1    0    0    -1  
 $EndComp
-Connection ~ 5275 4450
+Connection ~ 3275 5075
 Wire Wire Line
-	5275 4450 5275 5075
+	3275 5075 3275 5700
+Wire Wire Line
+	6350 4450 6350 5050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62155603
+P 6150 3625
+F 0 "#PWR?" H 6150 3475 50  0001 C CNN
+F 1 "+3.3V" H 6165 3798 50  0000 C CNN
+F 2 "" H 6150 3625 50  0001 C CNN
+F 3 "" H 6150 3625 50  0001 C CNN
+	1    6150 3625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3625 6150 3700
+Text Label 5475 5050 0    50   ~ 0
+GPIO
+Wire Wire Line
+	6150 5050 5475 5050
+Connection ~ 6150 5050
+Wire Wire Line
+	5475 4950 6875 4950
+Text Label 5475 4950 0    50   ~ 0
+CLK
+Wire Wire Line
+	6150 4850 5475 4850
+Connection ~ 6150 4850
+Wire Wire Line
+	5950 4750 5475 4750
+Connection ~ 5950 4750
+Text Label 5475 4750 0    50   ~ 0
+SCL
+Wire Wire Line
+	3575 4075 3575 5575
+$Comp
+L rpi-compute-cluster-led-indicator:TE_1-1734248-5_FLEX J1
+U 1 1 603E9F91
+P 2975 5175
+F 0 "J1" H 3000 6275 50  0000 C CNN
+F 1 "TE_1-1734248-5_FLEX" H 3200 4675 50  0000 C CNN
+F 2 "rpi-compute-cluster-led-indicator-footprints:TE_1-1734248-5_FLEX" H 2850 4475 50  0001 C CNN
+F 3 "" H 3050 4375 50  0001 C CNN
+F 4 "1-1734248-5" H 3250 5375 60  0001 L CNN "MPN"
+F 5 "TE Connectivity" H 3250 5250 60  0001 L CNN "Manufacturer"
+	1    2975 5175
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 3175 4275
+NoConn ~ 3175 4375
+NoConn ~ 3175 4575
+NoConn ~ 3175 4675
+NoConn ~ 3175 4875
+NoConn ~ 3175 4975
 $EndSCHEMATC
