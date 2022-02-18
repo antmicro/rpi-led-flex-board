@@ -3,10 +3,10 @@ EESchema-LIBRARY Version 2.4
 #
 # LTST-C19HE1WT
 #
-DEF kvm-compute-cluster-led-indicator_LTST-C19HE1WT D 0 0 Y Y 1 F N
+DEF LTST-C19HE1WT D 0 0 Y Y 1 F N
 F0 "D" -300 300 50 H V C CNN
-F1 "kvm-compute-cluster-led-indicator_LTST-C19HE1WT" 0 -350 50 H I C CNN
-F2 "kvm-compute-cluster-led-indicator-footprints:LED_Dual0603" 200 200 60 H I L CNN
+F1 "LTST-C19HE1WT" 0 -350 50 H I C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:LED_Dual0603" 200 200 60 H I L CNN
 F3 "http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf" 200 300 60 H I L CNN
 F4 "LTST-C19HE1WT" 200 500 60 H I L CNN "MPN"
 F5 "Lite-On Inc." 200 1100 60 H I L CNN "Manufacturer"
@@ -49,10 +49,10 @@ ENDDEF
 #
 # R_10k_0402
 #
-DEF kvm-compute-cluster-led-indicator_R_10k_0402 R 0 0 Y Y 1 F N
+DEF R_10k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "kvm-compute-cluster-led-indicator_R_10k_0402" 0 -150 60 H I C CNN
-F2 "kvm-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
+F1 "R_10k_0402" 0 -150 60 H I C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
@@ -66,10 +66,10 @@ ENDDEF
 #
 # TE_1-1734248-5_FLEX
 #
-DEF kvm-compute-cluster-led-indicator_TE_1-1734248-5_FLEX J 0 40 Y N 1 F N
+DEF TE_1-1734248-5_FLEX J 0 40 Y N 1 F N
 F0 "J" 0 1100 50 H V C CNN
-F1 "kvm-compute-cluster-led-indicator_TE_1-1734248-5_FLEX" -25 -600 50 H V C CNN
-F2 "kvm-compute-cluster-led-indicator-footprints:TE_1-1734248-5_FLEX" -125 -700 50 H I C CNN
+F1 "TE_1-1734248-5_FLEX" -25 -600 50 H V C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:TE_1-1734248-5_FLEX" -125 -700 50 H I C CNN
 F3 "" 75 -800 50 H I C CNN
 F4 "1-1734248-5" 275 200 60 H I L CNN "MPN"
 F5 "TE Connectivity" 275 75 60 H I L CNN "Manufacturer"
@@ -110,10 +110,10 @@ ENDDEF
 #
 # R_4k7_0402
 #
-DEF kvm-compute-cluster-led-indicator_R_4k7_0402 R 0 0 Y Y 1 F N
+DEF R_4k7_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "kvm-compute-cluster-led-indicator_R_4k7_0402" 0 -150 60 H I C CNN
-F2 "kvm-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
+F1 "R_4k7_0402" 0 -150 60 H I C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "MCS04020C4701FE000" 200 300 60 H I L CNN "MPN"
@@ -127,10 +127,10 @@ ENDDEF
 #
 # R_100R_0402
 #
-DEF kvm-compute-cluster-led-indicator_R_100R_0402 R 0 0 Y Y 1 F N
+DEF R_100R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "kvm-compute-cluster-led-indicator_R_100R_0402" 0 -150 60 H I C CNN
-F2 "kvm-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
+F1 "R_100R_0402" 0 -150 60 H I C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0402-FX-1000GLF" 200 300 60 H I L CNN "MPN"
@@ -144,10 +144,10 @@ ENDDEF
 #
 # R_49R9_0402
 #
-DEF kvm-compute-cluster-led-indicator_R_49R9_0402 R 0 0 Y Y 1 F N
+DEF R_49R9_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "kvm-compute-cluster-led-indicator_R_49R9_0402" 0 -150 60 H I C CNN
-F2 "kvm-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
+F1 "R_49R9_0402" 0 -150 60 H I C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040249R9FKED" 200 300 60 H I L CNN "MPN"
@@ -161,10 +161,10 @@ ENDDEF
 #
 # C_100n_0402
 #
-DEF kvm-compute-cluster-led-indicator_C_100n_0402 C 0 0 Y Y 1 F N
+DEF C_100n_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "kvm-compute-cluster-led-indicator_C_100n_0402" 0 -150 60 H I C CNN
-F2 "kvm-compute-cluster-led-indicator-footprints:0402-cap" 200 200 60 H I L CNN
+F1 "C_100n_0402" 0 -150 60 H I C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Murata" 200 400 60 H I L CNN "Manufacturer"
 F5 "GRM155R61H104KE14D" 200 300 60 H I L CNN "MPN"
@@ -179,13 +179,13 @@ ENDDEF
 #
 # PCA9685BS,118
 #
-DEF kvm-compute-cluster-led-indicator_PCA9685BS,118 U 0 20 Y Y 1 F N
+DEF PCA9685BS,118 U 0 20 Y Y 1 F N
 F0 "U" -500 875 50 H V L CNN
-F1 "kvm-compute-cluster-led-indicator_PCA9685BS,118" 50 875 50 H V L CNN
-F2 "kvm-compute-cluster-led-indicator-footprints:QFN-28_6x6mm_P0.65mm" 25 -975 50 H I L CNN
+F1 "PCA9685BS,118" 50 875 50 H V L CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:QFN-28_6x6mm_P0.65mm" 25 -975 50 H I L CNN
 F3 "" -400 700 50 H I C CNN
 $FPLIST
-QFN*1EP*6x6mm*P0.65mm*
+ QFN*1EP*6x6mm*P0.65mm*
 $ENDFPLIST
 DRAW
 S -500 800 500 -900 0 1 10 f
@@ -223,10 +223,10 @@ ENDDEF
 #
 # antmicro_logo
 #
-DEF kvm-compute-cluster-led-indicator_antmicro_logo N 0 40 Y Y 1 F N
+DEF antmicro_logo N 0 40 Y Y 1 F N
 F0 "N" 0 350 50 H V C CNN
-F1 "kvm-compute-cluster-led-indicator_antmicro_logo" 0 -200 50 H V C CNN
-F2 "kvm-compute-cluster-led-indicator-footprints:antmicro-logo" -100 250 50 H I C CNN
+F1 "antmicro_logo" 0 -200 50 H V C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:antmicro-logo" -100 250 50 H I C CNN
 F3 "" 0 350 50 H I C CNN
 DRAW
 T 0 50 50 79 0 0 0 Logo Normal 0 C C
@@ -235,10 +235,10 @@ ENDDEF
 #
 # oshw_logo
 #
-DEF kvm-compute-cluster-led-indicator_oshw_logo N 0 40 Y Y 1 F N
+DEF oshw_logo N 0 40 Y Y 1 F N
 F0 "N" 20 40 50 H V C CNN
-F1 "kvm-compute-cluster-led-indicator_oshw_logo" 30 -150 50 H V C CNN
-F2 "kvm-compute-cluster-led-indicator-footprints:oshw-logo" 20 -240 50 H I C CNN
+F1 "oshw_logo" 30 -150 50 H V C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:oshw-logo" 20 -240 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 30 -40 79 0 1 1 Logo Normal 0 C C
@@ -247,10 +247,10 @@ ENDDEF
 #
 # R_0R_0402
 #
-DEF kvm-compute-cluster-led-indicator_R_0R_0402 R 0 0 Y Y 1 F N
+DEF R_0R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "kvm-compute-cluster-led-indicator_R_0R_0402" 0 -150 60 H I C CNN
-F2 "kvm-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
+F1 "R_0R_0402" 0 -150 60 H I C CNN
+F2 "rpi-compute-cluster-led-indicator-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"

@@ -189,7 +189,7 @@
     (add_net "Net-(J1-Pad9)")
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:QFN-28_6x6mm_P0.65mm (layer F.Cu) (tedit 600858FC) (tstamp 61530A05)
+  (module rpi-compute-cluster-led-indicator-footprints:QFN-28_6x6mm_P0.65mm (layer F.Cu) (tedit 600858FC) (tstamp 61530A05)
     (at 106.661763 125.63585 90)
     (descr "QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf (Page 289)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py")
     (tags "QFN DFN_QFN")
@@ -294,7 +294,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F60C)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F60C)
     (at 101.018526 117.8817 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -328,7 +328,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:antmicro-logo_scaled_15mm_silk (layer F.Cu) (tedit 6036773F) (tstamp 61535D17)
+  (module rpi-compute-cluster-led-indicator-footprints:antmicro-logo_scaled_15mm_silk (layer F.Cu) (tedit 6036773F) (tstamp 61535D17)
     (at 141.25 108.52)
     (path /603AD97C)
     (attr virtual)
@@ -627,7 +627,7 @@
       (xy -5.919154 -1.04255) (xy -5.860517 -1.051393) (xy -5.799214 -1.040212)) (layer F.SilkS) (width 0.001395))
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:OSHW-Logo_5.7x6mm_SilkScreen (layer F.Cu) (tedit 0) (tstamp 61535CE0)
+  (module rpi-compute-cluster-led-indicator-footprints:OSHW-Logo_5.7x6mm_SilkScreen (layer F.Cu) (tedit 0) (tstamp 61535CE0)
     (at 126.509263 109.27585)
     (descr "Open Source Hardware Logo")
     (tags "Logo OSHW")
@@ -980,7 +980,7 @@
       (xy -1.971615 1.454739) (xy -1.908759 1.469184)) (layer F.SilkS) (width 0.01))
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F5E2)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F5E2)
     (at 105.958526 119.0467 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1014,7 +1014,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F5B8)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F5B8)
     (at 105.958526 117.518129 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1048,7 +1048,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F58E)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F58E)
     (at 105.958526 115.989558 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1082,7 +1082,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F564)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F564)
     (at 105.958526 114.460987 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1116,7 +1116,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F53A)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F53A)
     (at 105.958526 112.932416 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1150,7 +1150,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F510)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F510)
     (at 105.958526 111.403845 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1184,7 +1184,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F4E6)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F4E6)
     (at 105.958526 109.875274 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1218,7 +1218,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F4BC)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F4BC)
     (at 105.958526 108.346703 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1252,7 +1252,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F492)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F492)
     (at 105.958526 106.818132 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1286,7 +1286,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F468)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F468)
     (at 105.958526 105.289561 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1320,7 +1320,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F43E)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F43E)
     (at 105.958526 103.76099 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1354,7 +1354,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F414)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F414)
     (at 105.958526 102.232419 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1388,7 +1388,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F3EA)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F3EA)
     (at 105.958526 100.703848 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1422,7 +1422,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F3AB)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F3AB)
     (at 105.958526 99.175277 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1456,7 +1456,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F381)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F381)
     (at 105.958526 97.6467 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1490,7 +1490,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6152F357)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 6152F357)
     (at 102.159263 126.67585 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1524,7 +1524,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 601C1ADE)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 601C1ADE)
     (at 162.425 101.2)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1558,7 +1558,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 601C0FB6)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 601C0FB6)
     (at 162.425 102.45)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1592,7 +1592,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:TE_1-1734248-5_FLEX (layer F.Cu) (tedit 5EB94318) (tstamp 60093603)
+  (module rpi-compute-cluster-led-indicator-footprints:TE_1-1734248-5_FLEX (layer F.Cu) (tedit 5EB94318) (tstamp 60093603)
     (at 166.15 109.35 90)
     (path /603E9F91)
     (attr smd)
@@ -1638,7 +1638,7 @@
       (net 22 GND))
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F32D)
+  (module rpi-compute-cluster-led-indicator-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6152F32D)
     (at 101.018526 116.9117 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1672,7 +1672,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F23F)
+  (module rpi-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F23F)
     (at 103.673526 118.3217)
     (descr http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf)
     (path /6012CB85)
@@ -1718,7 +1718,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F1F4)
+  (module rpi-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F1F4)
     (at 103.673526 113.6467)
     (descr http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf)
     (path /6012CB8D)
@@ -1764,7 +1764,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F1A9)
+  (module rpi-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F1A9)
     (at 103.673526 104.2967)
     (descr http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf)
     (path /601122FA)
@@ -1810,7 +1810,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F15E)
+  (module rpi-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F15E)
     (at 103.673526 108.9717)
     (descr http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf)
     (path /601141D9)
@@ -1856,7 +1856,7 @@
     )
   )
 
-  (module kvm-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F113)
+  (module rpi-compute-cluster-led-indicator-footprints:LED_Dual0603 (layer F.Cu) (tedit 60083040) (tstamp 6152F113)
     (at 103.673526 99.6217)
     (descr http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf)
     (path /60114A83)
