@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name rpi-compute-cluster-led-indicator-rescue)(type Legacy)(uri ${KIPRJMOD}/rpi-compute-cluster-led-indicator-rescue.lib)(options "")(descr ""))
   (lib (name rpi-compute-cluster-led-indicator)(type Legacy)(uri ${KIPRJMOD}/lib/rpi-compute-cluster-led-indicator.lib)(options "")(descr ""))
 )

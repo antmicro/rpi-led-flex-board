@@ -1,15 +1,15 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "RPi Compute Cluster LED Indicator"
+Date "2022-02-18"
+Rev "1.1.0"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -269,7 +269,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 4475 5650 4475
 $Comp
-L rpi-compute-cluster-led-indicator:+3.3V #PWR0105
+L power:+3.3V #PWR0105
 U 1 1 602D0676
 P 2750 1675
 F 0 "#PWR0105" H 2750 1525 50  0001 C CNN
@@ -831,6 +831,17 @@ F 1 "GND" H 3330 3627 50  0000 C CNN
 F 2 "" H 3325 3800 50  0001 C CNN
 F 3 "" H 3325 3800 50  0001 C CNN
 	1    3325 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62103425
+P 2450 3675
+F 0 "#PWR?" H 2450 3425 50  0001 C CNN
+F 1 "GND" H 2455 3502 50  0000 C CNN
+F 2 "" H 2450 3675 50  0001 C CNN
+F 3 "" H 2450 3675 50  0001 C CNN
+	1    2450 3675
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
