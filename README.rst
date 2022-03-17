@@ -13,7 +13,7 @@ This repository contains open hardware design files of the LED flexible PCB desi
 It includes a `PCA9685BS <https://www.nxp.com/products/power-management/lighting-driver-and-controller-ics/ic-led-controllers/16-channel-12-bit-pwm-fm-plus-ic-bus-led-controller:PCA9685>`_ GPIO expander which drives five RGB LEDs. 
 The GPIO expander is connected to the Raspberry PI over an I2C interface exposed on the camera connector.
 This board has been developed and tested with Raspberry Pi 4B.
-It has been developed as a part of a compute cluster and fits mechanically in the Open Hardware Raspberry Pi enclosure.
+It has been developed as a part of a compute cluster and fits mechanically in the Open Hardware `Raspberry Pi enclosure <https://github.com/antmicro/rpi-compute-cluster-enclosure>`_.
 
 The design files were prepared in KiCad.
 The PCB stackup definition assumes a polyimide, flexible PCB with FR4 stiffeners below the LEDs and the FFC end. 
