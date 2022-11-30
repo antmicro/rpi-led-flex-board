@@ -4,7 +4,7 @@ Raspberry Pi LED Flex Board
 
 Copyright (c) 2022 `Antmicro <https://www.antmicro.com>`_
 
-.. figure:: img/rpi-led-flex-board.png
+.. figure:: img/rpi-led-flex-board.jpg
 
 Overview
 --------
